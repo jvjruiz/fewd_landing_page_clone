@@ -115,3 +115,13 @@ button {
     color: #333333;
     background-color:orange;
 }
+
+.cases h2{
+	font-weight: 100;
+	font-size: 3rem;
+	text-align: center;
+	position: relative;
+	top: 3em;
+	margin:-1em;
+	color: darkgray;
+}
