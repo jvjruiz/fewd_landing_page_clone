@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+div {
+border: 1px solid chocolate;
+}
+
+body{
+	background-color: lightgray;
+}
+
+.top-navigation {
+	background-color: #fff;
+}
+
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.content {
+	padding: 0px 15px
+	
+}
+
+.logo{
+	margin-top:1em;
+}
+
+.top-navigation  .links{
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+}
+
+.links > li{
+	display: inline-block;
+	margin-top:1em;
+	margin-left: .5em;
+	
+}
+
+.top-navigation  .links  .active {
+    color: #838994;
+    font-weight: 500;
+}
+
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
