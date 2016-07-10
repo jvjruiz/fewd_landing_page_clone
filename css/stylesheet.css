@@ -11,45 +11,60 @@ border: 1px solid chocolate;
 
 body{
 	background-color: lightgray;
-	float: right;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #838994;
 	letter-spacing: 0.03em;
+	overflow:auto;
+}
+
+.top-navigation  .links{
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    padding-right: 20px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.topnavigation .links li{
+	display:inline-block;
+	margin-left: 25px
+	margin-right: 25px;
+}
+
+.top-navigation  .links  .active {
+    color: #838994;
+    font-weight: 500;
+
+}
+
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+
+.logo {
+	margin-top: 1em;
+	position: relative;
+	right: 5em;
 }
 
 .top-navigation {
 	background-color: #fff;
+	margin: 0 auto;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .content {
-	padding: 0px 15px
-	margin: 0 auto;
 	width: 970px;
-	
-}
-
-.top-navigation > .content {
-height: 70px;
-	
-}
-
-
-
-.logo{
-	margin-top:1em;
-	position: relative;
-	bottom: 4.5em;
-	left: 9em;
-}
-
-.top-navigation  .links{
-	
-	-webkit-font-smoothing: antialiased;
-	position: relative;
-	left: 20em;
-	bottom: .5em
-
+	height: 70px;
+	margin: 0 auto;
+	padding: 0 0.938rem;
+	box-sizing: border-box;
+	text-align: center;
 }
 
 .links > li{
@@ -59,69 +74,62 @@ height: 70px;
 	
 }
 
-.top-navigation  .links  .active {
-    color: #838994;
-    font-weight: 500;
-}
-
 .top-navigation .links li:hover {
     cursor: pointer;
     color: #333333;
 }
 
-.introduction{
-   background-image: url('../images/first-background.jpg');
-    background-position: center bottom;
+.introduction {
+    background-image: url('../images/first-background.jpg');
+    background-position: 0 bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 45.938rem;
-    background-position: 0 bottom;
-	background-position: center;
+    height: 598px;
 }
 
-.introduction > .content  {
-	color:white;
-	margin-left: 1em;
+.introduction h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+}
+.introduction h3 {
+    margin-top: 1.25rem;
+    font-size: 1.563rem;
+}
+
+.introduction h1, .introduction h3{
+	color: white;
 	text-align: center;
-	position: relative;
-	top: 13em;
-}
-
-.introduction > .content h1{
-	font-size: 3rem;
-	font-weight: 200;
-}
-.introduction > .content h3{
-	font-size: 1.5rem;
-	font-weight: 100;
-	position: relative;
-	bottom: 1em;
+	font-weight: 300;
 }
 
 button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
     text-shadow: none;
     border-style: none;
     border-radius: 4px;
     padding: 1rem 1.5rem;
-    background-color: orange;
-    position: relative;
-    bottom: 2em;
-    width: 12em;
-    font-size: 1rem;
-}
-
-.introduction .content button:hover {
-    cursor: pointer;
-    color: #333333;
-    background-color:orange;
+    color: white;
+    font-size: 1.125rem;
+	display:block;
+    margin: 0 auto;
 }
 
 .cases h2{
-	font-weight: 100;
-	font-size: 3rem;
+	color: black;
 	text-align: center;
-	position: relative;
-	top: 3em;
-	margin:-1em;
-	color: darkgray;
+	font-weight: 300;
+	font-size:2.2rem;
+	padding-top: 2em
 }
+
+.cases .devices {
+    width: 33%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+}
+
