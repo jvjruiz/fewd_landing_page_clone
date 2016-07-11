@@ -125,7 +125,6 @@ button {
 }
 
 .cases .devices {
-    width: 33%;
     display: inline-block;
     /* styles to assist with debugging */
     border: 1px solid black;
@@ -133,3 +132,17 @@ button {
     height: 4em;
 }
 
+.cases .devices > li{
+	width: 33%;
+	float:left;
+}
+
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+
+ul{
+	list-style:none;
+}
