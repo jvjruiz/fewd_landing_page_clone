@@ -1,3 +1,4 @@
+/* Global */
 html {
   box-sizing: border-box;
 }
@@ -26,6 +27,15 @@ div{
 	display:block;
 }
 
+.content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+	padding: 0 0.938rem;
+	box-sizing: border-box;
+	text-align: center;
+}
+/* Top Navi */
 .top-navigation  .links{
     float: right;
     font-family: 'Roboto', sans-serif;
@@ -66,15 +76,6 @@ div{
 	z-index: 9999;
 }
 
-.content {
-	width: 970px;
-	height: 70px;
-	margin: 0 auto;
-	padding: 0 0.938rem;
-	box-sizing: border-box;
-	text-align: center;
-}
-
 .links > li{
 	display: inline-block;
 	margin-top:1em;
@@ -86,6 +87,8 @@ div{
     cursor: pointer;
     color: #333333;
 }
+
+/*background and intro */
 
 .introduction {
     background-image: url('../images/first-background.jpg');
@@ -124,14 +127,17 @@ button {
     margin: 0 auto;
 }
 
+
+/* icon section */
 .cases{
 	background-color:#fff;
 	overflow:hidden;
 	padding-bottom:5em;
+	height: 30em;
 }
 
 .cases .content{
-	margin-top:7.785rem;
+	margin-top:2.785rem;
 	padding:none;
 	color:#1d1e21;
 	text-align:center;
@@ -145,12 +151,11 @@ button {
 }
 
 .cases .devices {
-	width: 33.3333333%;
     display: inline-block;
     /* styles to assist with debugging */
     border: 1px solid black;
     box-sizing: border-box;
-    height: 4em;
+    height: 600px;
     display:flex;
 }
 
@@ -165,11 +170,19 @@ button {
     margin: 2.5rem 0px 1.875rem;
 }
 
+/* FOOTER */
+
 .social {
     background-color: #fff;
     overflow: auto;
     padding-bottom: 9.375rem;
     text-align: center;
+}
+
+.icons{
+	width:100%;
+	position: relative;
+	right: 1.5em;
 }
 
 .social .icons > li {
@@ -183,3 +196,18 @@ button {
     text-align: center;
 }
 
+.social .twitter{
+	color: #55acee;	
+}
+
+.social .facebook{
+	color: #4c66a4;
+}
+
+.social .instagram{
+	color: #3f729b;
+}
+
+.social h5 {
+	color: black;
+}
