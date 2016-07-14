@@ -74,6 +74,7 @@ div{
 	position: fixed;
 	width: 100%;
 	z-index: 1;
+	bottom:15px;
 }
 
 .links > li{
@@ -131,6 +132,11 @@ button {
     margin: 0 auto;
 }
 
+button:hover {
+    background-color: rgb(217, 64, 14);
+    cursor: pointer;
+    border-color: rgb(207, 61, 14);
+}
 
 /* icon section */
 .cases{
