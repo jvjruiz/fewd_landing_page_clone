@@ -90,6 +90,10 @@ div{
     color: #333333;
 }
 
+.introduction > .content {
+	padding-top: 8em;
+}
+
 /*background and intro */
 
 .introduction {
@@ -154,8 +158,6 @@ button {
 
 .cases .devices {
     display: inline-block;
-    /* styles to assist with debugging */
-    border: 1px hidden;
     box-sizing: border-box;
     height: 600px;
     display:flex;
