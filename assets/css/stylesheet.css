@@ -73,9 +73,7 @@ div{
 	margin: 0 auto;
 	position: fixed;
 	width: 100%;
-	z-index: 9999;
-	position: relative;
-	bottom: 15px;
+	z-index: 1;
 }
 
 .links > li{
